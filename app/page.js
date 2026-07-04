@@ -1,6 +1,6 @@
 import styles from './page.module.css';
-import { projects } from '@/data/projects';
-import ProjectCard from '@/components/ProjectCard';
+import { projects } from '../data/projects';
+import ProjectCard from '../components/ProjectCard';
 
 export default function Home() {
   return (
