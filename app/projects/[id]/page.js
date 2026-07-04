@@ -1,8 +1,8 @@
 'use client';
 
 import Link from 'next/link';
-import { projects } from '../../data/projects';
-import ProjectGallery from '../../components/ProjectGallery';
+import { projects } from '@/data/projects';
+import ProjectGallery from '@/components/ProjectGallery';
 import styles from './project.module.css';
 
 export default function ProjectPage({ params }) {
