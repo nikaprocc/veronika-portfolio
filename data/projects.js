@@ -3,24 +3,24 @@ export const projects = [
     id: 'miele',
     title: 'Miele',
     category: 'Побутова техніка',
-    color: '#1F2937',
+    color: '#8C0014',
     description: 'Повний SMM для преміум бренду побутової техніки. Контент-планування, написання сценаріїв, зйомка та монтаж рілсів, дизайн постів і сторіс.',
     services: ['Контент-план', 'Сценарії', 'Зйомка рілсів', 'Монтаж', 'Дизайн постів', 'Дизайн сторіс'],
     sections: [
       {
         name: 'Рілси',
         type: 'reels',
-        images: [],
+        
       },
       {
         name: 'Пости',
         type: 'posts',
-        images: [],
+        
       },
       {
         name: 'Сторіс',
         type: 'stories',
-        images: [],
+        
       }
     ],
     featured: true,
@@ -29,7 +29,7 @@ export const projects = [
     id: 'limnet',
     title: 'Limnet',
     category: 'Інтернет-провайдер',
-    color: '#004E89',
+    color: '#4EAA0B',
     description: 'Дизайн контенту для інтернет-провайдера. Інформативні та цікаві пости та сторіс про інтернет-послуги та поради користувачам.',
     services: ['Дизайн постів', 'Дизайн сторіс', 'Концепція контенту'],
     sections: [
@@ -49,7 +49,7 @@ export const projects = [
     id: 'vashintertier',
     title: 'Ваш Інтер\'єр',
     category: 'Текстиль для дому',
-    color: '#06A77D',
+    color: '#004E3B',
     description: 'Дизайн контенту для бренду штор і текстилю для дому. Красиві приклади інтер\'єрів та тренди у оформленні житлового простору.',
     services: ['Дизайн постів', 'Дизайн сторіс', 'Концепція контенту'],
     sections: [
@@ -69,7 +69,7 @@ export const projects = [
     id: 'alfagalbud',
     title: 'AlfaGalbud',
     category: 'Будівельні матеріали',
-    color: '#F77F00',
+    color: '#1F2937',
     description: 'Дизайн контенту для будівельного бренду. Професійний контент про матеріали, технологіі та реалізовані проекти.',
     services: ['Дизайн постів', 'Дизайн сторіс', 'Концепція контенту'],
     sections: [
@@ -89,23 +89,23 @@ export const projects = [
     id: 'other',
     title: 'Інші роботи',
     category: 'Різні проекти',
-    color: '#8B5CF6',
+    color: '#64748B',
     description: 'Портфоліо інших цікавих проектів: спортивні добавки, косметологія та студентський проект BTW.',
     services: ['Дизайн контенту', 'Концепція', 'Вебдизайн'],
     sections: [
       {
-        name: '1meal - спортивні добавки',
-        type: 'posts',
+        name: '1meal — спортивні добавки',
+        type: '1meal',
         images: [],
       },
       {
         name: 'Косметолог',
-        type: 'posts',
+        type: 'cosmetologist',
         images: [],
       },
       {
-        name: 'BTW - студентський проект',
-        type: 'posts',
+        name: 'BTW — студентський проєкт',
+        type: 'btw',
         images: [],
       }
     ],

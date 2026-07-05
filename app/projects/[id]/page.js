@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { projects } from '@/data/projects';
-import ProjectGallery from '@/components/ProjectGallery';
+import ProjectGalleryAuto from '@/components/ProjectGalleryAuto';
 import styles from './project.module.css';
 
 export default function ProjectPage({ params }) {
@@ -55,7 +55,7 @@ export default function ProjectPage({ params }) {
         </div>
 
         {/* Gallery */}
-        <ProjectGallery project={project} />
+        <ProjectGalleryAuto project={project} />
       </div>
     </main>
   );
